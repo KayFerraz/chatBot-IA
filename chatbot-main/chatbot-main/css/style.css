@@ -1,12 +1,13 @@
         /* CSS para o Estilo */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #c5abab;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
+            height: 70%;
+            width: auto;
+            margin: top 1%;
         }
 
         #chat-app {
@@ -14,10 +15,10 @@
             height: 600px;
             border: 1px solid #ccc;
             border-radius: 8px;
-            background-color: #fff;
+            background-color: #f5f5f5;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         #chat-container {
@@ -31,30 +32,30 @@
         #input-area {
             display: flex;
             padding: 10px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid #5610d8;
         }
 
         #user-input {
             flex-grow: 1;
-            border: 1px solid #ccc;
+            border: 1px solid #5610d8;
             border-radius: 4px;
             padding: 8px;
             font-size: 16px;
         }
 
         #send-btn {
-            background-color: #007bff;
+            background-color: #8500dd;
             color: white;
             border: none;
             padding: 0 12px;
             margin-left: 8px;
-            border-radius: 4px;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 16px;
         }
 
         #send-btn:hover {
-            background-color: #0056b3;
+            background-color: #6806e7;
         }
 
         /* Estilos das mensagens */
@@ -67,13 +68,13 @@
         }
 
         .user-message {
-            background-color: #d1eaff; /* Azul claro para usuário */
+            background-color: #cec4f7; /* Azul claro para usuário */
             align-self: flex-end; /* Alinha à direita */
             border-bottom-right-radius: 0;
         }
 
         .bot-message {
-            background-color: #e9e9eb; /* Cinza claro para bot */
+            background-color: #e0e0e0; /* Cinza claro para bot */
             align-self: flex-start; /* Alinha à esquerda */
             border-bottom-left-radius: 0;
         }
